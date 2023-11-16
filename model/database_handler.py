@@ -4,7 +4,7 @@ import sqlite3
 
 from PyQt5.QtWidgets import QTableWidgetItem, QApplication
 
-from Rename.model.file_handler import get_files_from_directory
+from model.file_handler import get_files_from_directory
 
 
 def query_title_from_database(connection, ss_code):

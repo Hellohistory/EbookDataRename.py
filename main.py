@@ -5,9 +5,9 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QH
 from PyQt5.QtCore import QSize
 from opencc import OpenCC
 
-from Rename.model.database_handler import queryDatabaseForFileNames
-from Rename.model.file_handler import get_files_from_directory
-from Rename.model.rename_handler import startRenamingFiles
+from model.database_handler import queryDatabaseForFileNames
+from model.file_handler import get_files_from_directory
+from model.rename_handler import startRenamingFiles
 
 
 class MainGUI(QMainWindow):
